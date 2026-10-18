@@ -1,0 +1,33 @@
+SIM-SWAP FRAUD DETECTION MODEL EVALUATION
+Dataset: Synthetic demonstration data
+
+Rows: 10000
+Training rows: 8000
+Testing rows: 2000
+ROC-AUC: 0.9997
+Average precision: 0.9978
+
+Classification report:
+                 precision    recall  f1-score   support
+
+     Legitimate     0.9972    0.9960    0.9966      1767
+Simulated fraud     0.9702    0.9785    0.9744       233
+
+       accuracy                         0.9940      2000
+      macro avg     0.9837    0.9873    0.9855      2000
+   weighted avg     0.9940    0.9940    0.9940      2000
+
+Confusion matrix (actual rows, predicted columns):
+[[1760    7]
+ [   5  228]]
+
+Feature importance:
+hours_since_sim_change        0.410833
+sim_change_detected           0.218458
+failed_logins                 0.150220
+transaction_amount            0.111792
+transaction_count_24h         0.047946
+new_device                    0.041937
+unusual_location              0.007302
+recent_credential_change      0.006813
+average_transaction_amount    0.004699
