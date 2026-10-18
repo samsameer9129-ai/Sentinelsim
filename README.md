@@ -95,7 +95,8 @@ IBM Z/LinuxONE could be explored as a future hosting environment for secure, sca
 
 ## Project Details
 
-- **Team name:** [Add team name]
-- **Team members:** [Add names]
-- **Repository:** [Add repository URL]
+- **Team name:** Nexusflow
+- **Team members:** Dhanukavi,Sameer,Prakash Ram P, Janani Saravanan
+- **Repository:** https://github.com/samsameer9129-ai/Sentinelsim.git
+- **Pitch Link:** link
 - **Demo video:** [Add link when available]
